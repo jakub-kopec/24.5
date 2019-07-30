@@ -1,0 +1,18 @@
+{
+  "name": "24.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/calculateDistancePoints.test.js test/calculateStylePoints.test.js test/calculateTotalPoints.test.js",
+    "test style": "mocha test/calculateStylePoints.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "onchange": "^6.0.0"
+  }
+}
